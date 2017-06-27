@@ -1,0 +1,10 @@
+name: BetterChat
+version: 0.1
+main: me.mate.betterchat.Main
+author: Mateusz Budzisz
+depend: []
+commands:
+  betterchat:
+    description: betterchat
+  bt:
+    description: betterchat

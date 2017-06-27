@@ -1,0 +1,116 @@
+# Main configuration file
+# Main Switch for plugin
+enable: true
+
+# Advanced mode, may be slower but more customized
+# The most of settings below only work when Advanced mode [AV] is enabled
+advanced-mode-enable: false
+
+# General messages settings, Main switch for messages
+messages:
+
+  # Main switch for messages
+  enabled: true
+
+  # separator ex. NickName[: ] message
+  separator: ': ' 
+
+  # Messages color
+  color: '7'
+
+
+
+# Quotes [AV] hilighter settings
+quotes:
+
+  # Main switch for quotes
+  enabled: true
+
+  # Char for finding quotes in message
+  char: '"'
+  
+  # Char to replace
+  char-to: '❝'
+
+  # Do I have to color the quotes?
+  colored: true
+
+  # Color for quotes
+  color: 'd'
+
+  # Do I have to italic the quotes?
+  italic: true
+
+  # Do I have to underline the quotes?
+  underline: false
+
+  # Do I have to bold the quotes?
+  bold: false
+
+  # Do I have to strikethrough the quotes?
+  strikethrough: false
+  
+  # Do I have to obfuscat the quotes?
+  obfuscated: false
+  
+  
+  
+  
+# Players hilighter settings
+players:
+  
+  # Main switch for players
+  enabled: true
+  
+  # NickName Prefix for none leave 'null'
+  prefix: '@'
+
+  # NickName spell checking
+  spell-checking: true
+  
+  # Settings for Online Players Identicator
+  online:
+  
+    # Main Switch for Online Players Identicator
+    enabled: true
+  
+    # Do I have to color the online player?
+    colored: true
+    
+    # Color for online player
+    color: 'a'
+    
+  
+  
+  # Settings for offline Players Identicator
+  offline:
+  
+    # Main switch for offline Players Identicator
+    enabled: true
+    
+    # Do I have to color the offline player?
+    colored: true
+    
+    # Color for offline player
+    color: 'c'
+  
+  
+  
+  # Main switch for target Player Identicator
+  target:
+  
+    # Main switch for target Player Identicator
+    enabled: true
+  
+    # Do I have to color the target player?
+    colored: true
+    
+    # Color for target player
+    color: '6'
+  
+    
+
+ 
+  
+
+
