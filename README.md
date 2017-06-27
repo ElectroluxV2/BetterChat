@@ -1,0 +1,2 @@
+# BetterChat
+My first plugin
